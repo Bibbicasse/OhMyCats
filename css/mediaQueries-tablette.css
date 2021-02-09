@@ -1,0 +1,10 @@
+/* Media Queries pour la version tablette */
+/* Maquette Désert - Exercice entrainement */
+
+/* Tablette */
+@media (min-width:768px) and (max-width:1200px)  {
+    header ul li {
+        background-color: #e2e2e2;
+    }
+
+}
