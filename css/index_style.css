@@ -1,16 +1,16 @@
 
- /* ***********************************************/
- /*             RÉFÉRENCIEL POLICE                */
- /* ***********************************************/
+                        /* ***********************************************/
+                        /*             RÉFÉRENCIEL POLICE                */
+                        /* ***********************************************/
 
 /* Police des titres :
 https://fonts.google.com/specimen/Merienda
 
 
 
- /* ***********************************************/
- /*             RÉFÉRENCIEL COULEURS              */
- /* ***********************************************/
+                        /* ***********************************************/
+                        /*             RÉFÉRENCIEL COULEURS              */
+                        /* ***********************************************/
 /* Couleurs : 
 navbar : #061339
 premier bloc : #B9CDFF + background
@@ -19,3 +19,182 @@ autres titres : #2F4073
 footer : #061339
 tête chat défaut : #7885A5
 tête chat hover : #061339 */
+
+
+
+* { 
+    font-family: 'Merienda', cursive;
+}
+                        /* ***********************************************/
+                        /*                 NAVIGATION                    */
+                        /* ***********************************************/    
+nav {
+    background: #061339;
+
+    font-weight: bold;
+    height: 50px;
+}
+
+nav h2 {
+    font-size: 28px;
+    margin: 0 auto;
+    padding-top: 0.25em;
+}
+
+nav a {
+    color: white;
+    vertical-align: middle;
+    text-align: left;
+} 
+
+
+                    /* ***********************************************/
+                    /*             SECTION 1 ET 2                    */
+                    /* ***********************************************/
+
+header div {
+    background: url("../img/background.jpg");
+    height: 180px;
+}
+
+header div h1 {
+    color: #ffffff;
+    font-size: 45px;  
+    text-align: center;
+    font-style: italic ;
+    margin: 1em auto;
+    text-shadow: 3px 0 10px black;
+}
+
+section {
+    background: rgb(243, 243, 243);
+}
+
+
+
+                /* ***********************************************/
+                /*                     CAROUSEL                  */
+                /* ***********************************************/    
+
+section #carouselExampleIndicators {
+    margin: 50px 0 0 0; 
+}
+
+#carouselExampleIndicators div {
+    max-width: 100%;
+}
+
+h5 {
+    margin-bottom: 1em;
+
+    font-size: 5em;
+}
+
+                    /* ***********************************************/
+                    /*                 Formulaire                    */
+                    /* ***********************************************/
+
+#h2forme {
+    margin: 10px auto;
+    margin-bottom: 0;
+    /* height: 50px; */
+
+
+    text-align: center;
+    color: #2F4073;
+}
+
+form {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    height: auto;
+    /* margin-top: 2% ;
+    margin-bottom: 5%; */
+    margin: 2% auto 5% ;
+    /* margin-left: 150px; */
+}
+
+form label {
+    font-weight: bold;
+}
+
+form #btnEnvoiChat, a {
+    color: white;
+}
+
+
+                    /* ***********************************************/
+                    /*          SECTION - NOS CHATS A ADOPTER        */
+                    /* ***********************************************/
+
+ body section:nth-of-type(2) {
+    background: rgb(223, 223, 223);
+    padding: 20px 0;
+ }
+
+ body section:nth-of-type(2) h3 {
+    text-align: justify;
+    color: #2F4073 ;
+ }
+
+ body section:nth-of-type(2) p {
+    margin: 15px 0 15px 0;
+ }
+
+#tete2chat{
+    background: #7885A5;
+ }
+
+ #tete2chat:hover{
+    background: #061339;
+ }
+ 
+
+                /* ***********************************************/
+                /*                    FOOTER                     */
+                /* ***********************************************/       
+
+footer {
+    background-color: #061339;
+    height: 3em;
+    margin-top: 5px;
+
+
+    
+}
+
+footer p {
+    color: #ffffff;
+    text-align: right;
+
+    padding-top: 10px;
+    margin-bottom: 0;
+    height: 2em;
+    
+}
+
+
+@media (min-width:1440px) {
+
+         /* ***********************************************/
+         /* SECTION + CAROUSEL + FORMULAIRE + BUTTON */
+         /* ***********************************************/
+    section #carouselExampleIndicators {
+        margin: 100px 0 0 0; 
+    }
+
+    #h2forme {
+        margin: 0 auto;
+        /* margin-left: 30%; */
+    }
+
+    form {
+        margin: 27% 0 50px 30%;
+    }
+}
+
+ /* ***********************************************/
+ /* Commentaire */
+ /* ***********************************************/

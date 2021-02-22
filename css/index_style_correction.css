@@ -1,0 +1,60 @@
+/* style adopte un chat  */
+
+ /* ***********************************************/
+ /*             REFERENCE DES COULEURS            */
+ /* ***********************************************/
+
+ :root {
+     --navbar : #061339;
+     --titre1 : #ffffff;
+     --pied2page :#061339;
+     --titres : #2F4073;
+     --tete2chat : #7885A5;
+     --tete2chatHover : #061339;
+     --rangee1: #B9CDFF;
+     --rangee2: #ddd;
+
+ }
+
+header  {
+    font-family: 'Merienda', cursive;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Merienda', cursive;
+}
+
+nav {
+    background-color: var(--navbar);
+    height: 50px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.jumbotron {
+    background-image: url('../img/background.jpg');
+    height: 220px;
+    color: #ffffff;
+    text-shadow: 5px 0 5px black;
+}
+
+#section_2 {
+    background-color: var(--rangee2);
+}
+
+#tete2chat {
+    background-color: var(--tete2chat);
+}
+
+#tete2chat:hover {
+    background-color: var(--tete2chatHover);
+}
+
+footer {
+    background-color: #061339;
+}

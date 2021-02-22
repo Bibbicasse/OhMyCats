@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chantier Suresnes 2020-2021 - Colombbus">
+    <!-- la description indispensable pour les moteurs de recherche et qui s'affiche dans les résultats  -->
+    <meta name="keywords" content="HTML, CSS, JS, JQuery, Salvatore Giovinetti, Colombbus, Suresnes, OhMyCats"> 
+    <meta name="autor" content="Salvatore Giovinetti">
+
+    <title>Oh My Cats - Accueil - Correction</title>
+
+<!-- **********************************************-->
+<!--           STYLE BOOTSTRAP EN LOCAL            -->
+<!-- **********************************************-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+<!-- **********************************************-->
+<!--               GOOGLE FONT LINK                -->
+<!-- **********************************************--> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- **********************************************-->
+<!--         STYLE PERSONNALISÉ EN LOCAL           -->
+<!-- **********************************************--> 
+    <link rel="stylesheet" href="css/index_style_correction.css">
+</head>
+<body>
+<!-- ********************************************************************************************-->
+<!--                                CORRECTION ADOPTE UN CHAT                                    -->
+<!-- ********************************************************************************************-->  
+
+            
+<!-- **********************************************-->
+<!--                    HEADER                     -->
+<!-- **********************************************-->
+
+<header>
+    <!-- nav -->
+    <nav class="">
+        <div class="container">
+            <a href="index_correction.html">Cuisez un chat</a>
+        </div>
+    </nav>
+    <!-- Jumbontron avec h1 -->
+    <div class="jumbotron">
+        <h1 class="text-center">Cuisez un chat c'est trop bon</h1>
+    </div>
+</header>
+
+ <!-- **********************************************-->
+ <!--        MAIN - CONTENUE PRINCIPAL              -->
+ <!-- **********************************************--> 
+ 
+<main>
+    <section id="section_1" class="container">
+        <div class="row">
+            <div class="col-12 order-1 order-md-2 col-md-9">
+<!-- **********************************************-->
+<!--     SECTION - CAROUSEL IMAGE + FORMULAIRE     -->
+<!-- **********************************************-->
+                 <div id="carouselChat" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselChat" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselChat" data-slide-to="1"></li>
+                      <li data-target="#carouselChat" data-slide-to="2"></li>
+                      <li data-target="#carouselChat" data-slide-to="3"></li>
+                      <li data-target="#carouselChat" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/chat_1.jpg" class="d-block w-100" alt="Cuisez un chat c'est trop bon : Cuisez un chat - Sushi">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Sushi</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/chat_2.jpg" class="d-block w-100" alt="Cuisez un chat c'est trop bon : Cuisez un chat - Maki">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Maki</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/chat_3.jpg" class="d-block w-100" alt="Cuisez un chat c'est trop bon : Cuisez un chat - Sashimi">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Sashimi</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/chat_4.jpg" class="d-block w-100" alt="Cuisez un chat c'est trop bon : Cuisez un chat - Yakitori">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Yakitori</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/chat_5.jpg" class="d-block w-100" alt="Cuisez un chat c'est trop bon : Cuisez un chat - Bol de riz">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Bol de riz</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselChat" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselChat" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Suivant</span>
+                    </a>
+                  </div>
+            </div><!-- fin col --> 
+
+<!-- **********************************************-->
+<!--                FORMULAIRE D'ENVOIE            -->
+<!-- **********************************************-->
+            <div class="col-12 order-2 order-md-1 col-md-3 pb-2" >
+                <h2>Les chats à manger</h2>
+                <form action="#" method="GET" id="chatFORMULAIRE" class="border rounded p-2 ">
+                    <div class="form-group"
+                        <label for="choix">Choix du chat</label>
+                        <select name="choix" id="choix" class="form-control">
+                            <option value="">Choisissez votre chat</option>
+                            <option value="sushi">Sushi</option>
+                            <option value="maki">Maki</option>
+                            <option value="sashimi">Sashimi</option>
+                            <option value="yakitori">Yakitori</option>
+                            <option value="bol2riz">Bol de riz</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="raison">Raison d'adoption</label>
+                        <textarea name="raison" id="raison" class="form-control " cols="30" rows="10" placeholder="Saississez ici la recette pour cuisinez ce chat"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="" id="" class="btn btn-success btn-block" value="Manger !" >
+                    </div>
+                </form>
+            </div>
+        </div><!-- fin row -->
+    </section> <!-- fin section 1-->
+
+<!-- **********************************************-->
+<!--               SECTION 2                       -->
+<!-- **********************************************-->
+    <section id="section_2" class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-9">
+                <h2>Les chats à dévorer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio minima in, ab temporibus modi unde deleniti magni dolores reprehenderit fugit accusantium ut aut reiciendis provident aperiam qui repudiandae eligendi nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quo unde ex dignissimos nobis. Officiis ullam recusandae dignissimos nulla porro eaque cum harum accusantium, alias amet quia animi omnis rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus maxime impedit eos expedita, voluptate corrupti iusto obcaecati. Inventore modi vitae molestias dignissimos repudiandae minus saepe expedita fugit! Quas, pariatur!</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <img src="img/tete-chat.png" class="img-fluid" alt="Cuisez un chat c'est trop bon : Cuisez un chat - Logo" id="tete2chat">
+            </div>
+          </div>
+        </div>
+    </section>
+
+<!-- **********************************************-->
+<!--           FOOTER AVEC SON COPYRIGHT           -->
+<!-- **********************************************--> 
+    <footer class="container-fluid">
+       <p class="text-right"> &copy; OhMyCats</p>
+    </footer>
+</main>
+
+<!--***********************************************-->
+<!--              jQuery en local                  -->
+<!-- **********************************************-->   
+  <script src="jquery/jquery-3.5.1.js"></script>
+
+<!--***********************************************-->
+<!--                Popper en local                -->
+<!-- **********************************************-->
+  <!-- <script src="js/popper.min.js"></script> -->
+
+<!-- **********************************************-->
+<!--             Boostrap JS en local              -->
+<!-- **********************************************--> 
+  <script src="js/bootstrap.js"></script>
+
+<!-- **********************************************-->
+<!--             JavaScript LOCAL                  -->
+<!-- **********************************************--> 
+<script src="js/formulaire_correction.js"></script>
+</body>
+</html>
